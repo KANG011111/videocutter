@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Application specific
+uploads/
+*.mp4
+*.mp3
+*.m4a
+*.webm
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.f4v
+*.f137.mp4
+*.f140.m4a
+*.part
+
+# Output directories (but keep empty folder structure)
+*/MP3/*
+*/MP4/*
+!*/MP3/.gitkeep
+!*/MP4/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# FFmpeg binaries (users will install their own)
+ffmpeg-kit.zip
+ffmpeg.zip
+ffprobe.zip
+ffmpeg
+ffprobe
+
+# Test files
+test_videos/
+test_outputs/
