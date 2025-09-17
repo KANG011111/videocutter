@@ -80,6 +80,41 @@ ffprobe.zip
 ffmpeg
 ffprobe
 
-# Test files
+# Test files and sensitive data
 test_videos/
 test_outputs/
+codex/
+創業必備財務思維！*/
+**/test_*
+**/sample_*
+**/example_*
+
+# Distribution and packaging files
+VideoSplitter_Distribution/
+VideoSplitter_PC_Test.zip
+pcpackage/
+
+# Large media files and downloads
+The_New_Rules_of_SEO_*
+*.mp4
+*.mp3
+*.m4a
+*.webm
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.f4v
+*.f137.mp4
+*.f140.m4a
+*.part
+
+# Personal data and API keys
+config.json
+secrets.json
+*.key
+*.pem
+*.p12
+.env
+.env.local
